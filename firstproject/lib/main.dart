@@ -35,44 +35,24 @@ class Home extends StatelessWidget {
             backgroundColor: Colors.blueGrey,
           ),
           body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-                Row(
-                children: [
-                    Container(
-                      padding: const EdgeInsets.all(10),
-                      color: Colors.red,
-                      child: const Text('data ligne '),
-                    ),
-                    Container(
-                      padding: const EdgeInsets.all(10),
-                      color: Colors.blue,
-                      child: const Text('data ligne'),
-                    ),
-                    Container(
-                      padding: const EdgeInsets.all(10),
-                      color: Colors.green,
-                      child: const Text('data ligne'),
-                    ),
-                ],
-                ),
-                Container(
-                  padding: const EdgeInsets.all(20),
-                  color: Colors.red,
-                  child: const Text('data'),
-                ),
-                Container(
-                  padding: const EdgeInsets.all(20),
-                  color: Colors.blue,
-                  child: const Text('data'),
-                ),
-                Container(
-                  padding: const EdgeInsets.all(20),
-                  color: Colors.green,
-                  child: const Text('data'),
-                ),
-                ],
+            children: [Row(children: [
+              Container(
+                padding: const EdgeInsets.all(40),
+                color: Colors.cyan[400],
+                child: const Text("Row1"),
+              ),
+              Container(
+                padding: const EdgeInsets.all(40),
+                color: Colors.tealAccent[700],
+                child: const Text("Row2"),
+              ),
+              Container(
+                padding: const EdgeInsets.all(40),
+                color: Colors.blue,
+                child: const Text("Row3"),
+              ),
+            ],)],
+
             ),
           )
         )
